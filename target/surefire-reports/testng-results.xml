@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-06T17:43:27 CST" name="Surefire suite" finished-at="2026-01-06T17:43:37 CST" duration-ms="10849">
+    <groups>
+    </groups>
+    <test started-at="2026-01-06T17:43:27 CST" name="Surefire test" finished-at="2026-01-06T17:43:37 CST" duration-ms="10849">
+      <class name="com.practice.automation.api.AuthApiTest">
+        <test-method is-config="true" signature="setupApi()[pri:0, instance:com.practice.automation.api.AuthApiTest@77e4c80f]" started-at="2026-01-06T17:43:35 CST" name="setupApi" finished-at="2026-01-06T17:43:35 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApi -->
+        <test-method signature="invalidLoginShouldFail()[pri:0, instance:com.practice.automation.api.AuthApiTest@77e4c80f]" started-at="2026-01-06T17:43:35 CST" name="invalidLoginShouldFail" finished-at="2026-01-06T17:43:37 CST" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldFail -->
+      </class> <!-- com.practice.automation.api.AuthApiTest -->
+      <class name="com.practice.automation.ui.HomePageTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.practice.automation.ui.HomePageTest@429bd883]" started-at="2026-01-06T17:43:27 CST" name="setUpClass" finished-at="2026-01-06T17:43:29 CST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.practice.automation.ui.HomePageTest@429bd883]" started-at="2026-01-06T17:43:29 CST" name="setUp" finished-at="2026-01-06T17:43:29 CST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldOpenHomePage()[pri:0, instance:com.practice.automation.ui.HomePageTest@429bd883]" started-at="2026-01-06T17:43:29 CST" name="shouldOpenHomePage" finished-at="2026-01-06T17:43:32 CST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldOpenHomePage -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.practice.automation.ui.HomePageTest@429bd883]" started-at="2026-01-06T17:43:32 CST" name="cleanUp" finished-at="2026-01-06T17:43:33 CST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.practice.automation.ui.HomePageTest@429bd883]" started-at="2026-01-06T17:43:33 CST" name="tearDownClass" finished-at="2026-01-06T17:43:33 CST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.practice.automation.ui.HomePageTest -->
+      <class name="com.practice.automation.api.ProductsApiTest">
+        <test-method is-config="true" signature="setupApi()[pri:0, instance:com.practice.automation.api.ProductsApiTest@351d0846]" started-at="2026-01-06T17:43:33 CST" name="setupApi" finished-at="2026-01-06T17:43:33 CST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApi -->
+        <test-method signature="getProductsList()[pri:0, instance:com.practice.automation.api.ProductsApiTest@351d0846]" started-at="2026-01-06T17:43:33 CST" name="getProductsList" finished-at="2026-01-06T17:43:35 CST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsList -->
+      </class> <!-- com.practice.automation.api.ProductsApiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
